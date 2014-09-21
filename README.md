@@ -4,6 +4,7 @@ This repository was created for the getdata-007 course project.
 
 ## Contents
 There are three files in this repository:
+
 1. This ReadMe.md
 2. run_analysis.R - A script used to generate a tidy dataset
 3. summarized_data.txt - The file containing tidy data from running the run_analysis.R script.
@@ -20,6 +21,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ## Output
 
 This script will:
+
 1. Read and combine the data for both the training and test datasets
 2. Extract the mean and standard deviation measurements
 3. Add descriptive labels for the activities and measurements
@@ -27,4 +29,4 @@ This script will:
 5. Write the data to the file summarized_data.txt in your working directory.
 
 You can read this data back into R as follows:
-summarized_data <- read.table("summarized_data.txt", header=TRUE)
+`summarized_data <- read.table("summarized_data.txt", header=TRUE)`
