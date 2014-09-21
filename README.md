@@ -6,7 +6,7 @@ This repository was created for the getdata-007 course project.
 There are three files in this repository:
 
 1. This ReadMe.md
-2. run_analysis.R - A script used to generate a tidy dataset
+2. run_analysis.R - A script used to generate a tidy dataset containing the average mean and standard deviation values across a series of measurements by subject and activity based on data from a phone's accelerometer and gyroscope.
 3. summarized_data.txt - The file containing tidy data from running the run_analysis.R script.
 
 ## Usage
