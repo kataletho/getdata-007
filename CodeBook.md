@@ -4,12 +4,13 @@
 
 The summarized dataset was generated as follows:
 
-1. The columns from the subject_*.txt, Y_*.txt and X_*.txt files were combined to create training and test datasets, which were then combined to create an overall dataset. As part of this step, the features.txt file was used to provide column headings for the measurements.
-2. Any measurement columns that did not contain mean() or std() were removed.
-3. The activity ids were replaced with activity names by merging the dataset with the data from the activity_labels file.
-4. The V2 column was renamed to Activity for readability.
-5. The data was then grouped by Activity and Subject, and each measurement was averaged.
-6. Finally, the data was writtten to file - summarized_data.txt.
+1. The data was downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and extracted to my working directory.
+2. The columns from the subject_*.txt, Y_*.txt and X_*.txt files were combined to create training and test datasets, which were then combined to create an overall dataset. As part of this step, the features.txt file was used to provide column headings for the measurements.
+3. Any measurement columns that did not contain mean() or std() were removed.
+4. The activity ids were replaced with activity names by merging the dataset with the data from the activity_labels file.
+5. The V2 column was renamed to Activity for readability.
+6. The data was then grouped by Activity and Subject, and each measurement was averaged.
+7. Finally, the data was writtten to file - summarized_data.txt.
 
 ## Summarized Data Contents
 
